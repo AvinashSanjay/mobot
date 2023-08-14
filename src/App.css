@@ -1,0 +1,35 @@
+.movie-app > .row {
+	overflow-x: visible;
+    overflow-y: hidden;
+	flex-wrap: nowrap;
+    margin-bottom: 2rem;
+}
+
+h2,h5 {
+    color: white;
+}
+
+.movie-header {
+    height: 300px;
+    width: 250px;
+    margin-right: 2rem;
+}
+
+.movie-title {
+    width: 100%;
+    opacity: 0;
+    padding: 4rem;
+    background-color: rgba(0, 0, 0, 0.521);   
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 3s;
+
+}
+
+.movie-header:hover {
+    transform: scale(1.2);
+}
+
+.movie-header:hover .movie-title {
+    opacity: 1;
+}
